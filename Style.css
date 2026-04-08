@@ -1,0 +1,29 @@
+*{
+    /* background-color: gray; */
+}
+
+h1{
+    color: pink;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: yellow;
+}
+
+.Selector > h1,
+.Selector > h2,
+.Selector > h3,
+.Selector > h4,
+.Selector > h5,
+.Selector > h6,
+.Selector > p{
+    color: darkviolet;
+}
+
+#Skill > h2{
+    color: hotpink;
+}
