@@ -1,9 +1,20 @@
 *{
     /* background-color: gray; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 h1{
-    color: pink;
+    color: #e72828;
+    /* font-family: fantasy; */
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 2px;
 }
 
 h2{
@@ -11,7 +22,11 @@ h2{
 }
 
 p{
-    color: yellow;
+    color: gray;
+    background-image: url(./Assets/c0f95fdb9116dad6cb48b785c4e7173c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .Selector > h1,
@@ -26,4 +41,19 @@ p{
 
 #Skill > h2{
     color: hotpink;
+}
+
+.Container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* padding-left: 50px;
+    padding-top: 30px; */
+    padding: 20px 40px 60px 80px;    
+    /* border-top: 10px solid black;
+    border-bottom: 10px solid green; */
+    border: 20px solid violet;  
+    /* margin-left: 100px;
+    margin-top: 170px; */
+    /* margin: 30px 50px 70px 90px; */
 }
