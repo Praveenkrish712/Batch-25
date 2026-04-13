@@ -78,8 +78,36 @@ v - Group Selector - Class or Id name contains different tags, in that different
             font-weight: 900;
             line-height: 1;
             letter-spacing: 2px;   
+
 6) Box Modeling
 ==> content
 ==> Padding - Around the content is called Padding
 ==> Border - Around the Padding is called Border
-==> Margin - Around the Border is called Margin                  
+==> Margin - Around the Border is called Margin    
+
+7) Position 
+i - Static - Default
+ii - Relative - Moveing one place to another place
+iii - Absolute - Absolute can search the non-Static parent, once reach the non-Static it will act as a same Relative, otherwise it will search one more...... non-Static parent, there is no non-Static parent means it will directy go to the root(body) of the web site/page
+iv - Fixed - to be fixed to the place
+v - Sticky - Mostly using header part and using top:0 once reach the top:0 it will act as a same fixed
+
+8) Display - block, inline, inline-block, flex, grid and none
+
+         Flex                                 grid
+   One Dimensional layout               Two Dimensional layout
+   Row OR Column                         Row and Column
+   Best for small components          Best for Full page layout
+   Ex:Navbar, cards                    Ex: section, dashboard
+
+====> Flex
+i) Using Display:flex to the parent it will works into child,
+change Column into Row 
+ii) Flex-direction - Row, row-reverse, Column, Column-reverse
+iii) justify-content (X) - Start, center, end, space-Around, space-evenly, space-between
+iv) Align-items (Y) (set the height) - Start, center, end
+v) gap - to be set the value (px,cm,m,%,rem,vh,vw)
+vi) Flex-wrap - nowrap, wrap, wrap-reverse
+vii) Align-content (Y) (set the height) (flex-wrap is enable) - Start, center, end, space-Around, space-evenly, space-between
+viii) flex on item - flex:1,2,3....
+iX) Order - We can Change the Visual order of the property
