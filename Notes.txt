@@ -138,3 +138,55 @@ viii) grid-template-areas:
     "sb1 m m sb2"
     "f f f f"; 
 ix)  grid-area: h, f, m, sb1, sb2;    
+
+9) Transition and Animation
+===> Transition - whenever we hover(affect) that some action will act its called Transition
+===> Animation - whenever the site will reload/refresh some action will act its called Animation
+
+-------> Transition
+            transition-duration: 5s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+            transition-timing-function: ease-out;
+            transition-timing-function: ease-in-out;
+            transition-timing-function: linear;
+
+-------> Transform
+               transform: rotate(45deg);
+               transform: scale(2);
+               transform: translate(100px);
+
+
+--------> Animation
+===> Set the Animation name
+===> Set the duration
+===> we can use the @keyframes to set the name and using two types to animatting, one (From To) Or (25%, 50%, 75%, 100%)
+
+                animation-name: Circle;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+
+10) Pseudo                 
+i) Hover
+ii) focus
+iii) nth-child()
+iv) first-child
+v) last-child
+vi) before
+vii) after
+viii) First-letter
+ix) First-line
+x) Checked
+
+11) Media Queries Or Responsive design
+===> apply Style based on the device condition
+===> device type (Mobile, tab, lap, desktop)
+
+-----> Mobile - 320px to 600px
+-----> Tablet - 601px to 800px
+-----> lap/desktop - Above 801px
+
+@media screen and (max-width:size) {
+    block of code
+}
